@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroundlight);
+    box-sizing: border-box;
+}
+header a {
+    text-decoration: none;
+}
+#header_nav_left a {
+    padding-right: 10px;
+}
+#header_nav_right a {
+    padding-right: 10px;
+}
