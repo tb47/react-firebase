@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --v1: white;
+  --v2: lightgrey;
+  --fontActive: rgb(255, 255, 255);
+  --fontHover: rgb(218, 218, 218);
+  --fontPassiv: rgb(200, 200, 200);
+  --fontChoice: rgb(80, 235, 85);
+  --fontAlternative: rgb(238, 40, 40);
+  --background: rgba(0,0,0,.4);
+  --backgroundhover: rgba(0,0,0,.3);
+  --backgroundlight: rgba(0,0,0,.2);
+}
+main {
+  height: 80vh;
+  width: 100vw;
+}
+header, main, footer {
+  padding: 10px
+}
+header, footer {
+  height: 10vh;
+  width: 100vw;
+}
+#app_fallback {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
